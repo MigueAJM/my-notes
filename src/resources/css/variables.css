@@ -1,0 +1,9 @@
+:root {
+    --background-color: #E7ECEF;
+    --text-color: #272932;
+}
+
+[data-theme="dark"] {
+    --background-color: #272932;
+    --text-color: #E7ECEF;
+}
