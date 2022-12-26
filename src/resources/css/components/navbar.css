@@ -1,0 +1,7 @@
+.navbar__bg {
+    background-color: var(--navbar-bg);
+}
+
+.__logo__ {
+    font-weight: bold
+}

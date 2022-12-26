@@ -1,0 +1,9 @@
+.social__network {
+    margin: 1rem;
+    font-size: 1.25rem;
+    color: var(--text-color)
+}
+
+.social__network:hover {
+    opacity: .5
+}
