@@ -1,9 +1,8 @@
-import { Navbar } from "../components/navbar"
-
+import { Navbar } from "../components/navbar";
 export const Header = () => {
     return (
-        <header>
-            <Navbar logo="{@MigueAJM}"/>
-        </header>
+       <>
+        <Navbar logo="{@MigueAJM}"/>
+       </>
     )
 }
