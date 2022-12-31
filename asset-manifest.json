@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/my-notes/static/css/main.f10fe52a.css",
-    "main.js": "/my-notes/static/js/main.bda22050.js",
-    "static/media/bootstrap-icons.woff?": "/my-notes/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
-    "static/media/bootstrap-icons.woff2?": "/my-notes/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
-    "index.html": "/my-notes/index.html",
-    "main.f10fe52a.css.map": "/my-notes/static/css/main.f10fe52a.css.map",
-    "main.bda22050.js.map": "/my-notes/static/js/main.bda22050.js.map"
+    "main.css": "/migueljimenezweb/my-notes/static/css/main.b80005bf.css",
+    "main.js": "/migueljimenezweb/my-notes/static/js/main.bda22050.js",
+    "static/media/bootstrap-icons.woff?": "/migueljimenezweb/my-notes/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/migueljimenezweb/my-notes/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "index.html": "/migueljimenezweb/my-notes/index.html",
+    "main.b80005bf.css.map": "/migueljimenezweb/my-notes/static/css/main.b80005bf.css.map",
+    "main.bda22050.js.map": "/migueljimenezweb/my-notes/static/js/main.bda22050.js.map"
   },
   "entrypoints": [
-    "static/css/main.f10fe52a.css",
+    "static/css/main.b80005bf.css",
     "static/js/main.bda22050.js"
   ]
 }
