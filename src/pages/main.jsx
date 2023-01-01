@@ -2,10 +2,10 @@ import { useState } from 'react'
 import { Footer } from "../layouts/footer"
 import { Header } from "../layouts/header"
 
-export const Dashboard = () => {
+export const Main = (props) => {
     const [theme, setTheme] = useState({
-        theme: 'light',
-        icon: 'sun-fill'
+        theme: 'dark',
+        icon: 'sun'
     })
 
     const toogleTheme = () => {
@@ -28,6 +28,7 @@ export const Dashboard = () => {
     return (
         <div>
             <Header action={toogleTheme} theme={theme} />
+                {props.component}
             <Footer/>
         </div>
     )

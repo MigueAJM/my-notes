@@ -5,6 +5,15 @@
     color: var(--text-color)
 }
 
+a, ul, li {
+    text-decoration: none;
+    list-style: none
+}
+
+.active {
+    border-bottom: solid .25rem var(--text-color)
+}
+
 body {
     background-color: var(--background-color);
 }
@@ -31,4 +40,31 @@ header, footer, nav {
 .grid-col3-justify-center {
     justify-items: center;
     align-items: center
+}
+
+#welcome_page, #error_page {
+    height: calc(100vh - 8rem);
+    text-align: center;
+    margin: 0 1rem
+}
+
+#error_page > div > i {
+    font-size: -webkit-xxx-large
+}
+
+.flex {
+    display: flex;
+    gap: 1rem
+}
+
+.flex-end {
+    justify-content: flex-end
+}
+
+.icon {
+    padding: 1rem
+}
+
+@media screen {
+    
 }
