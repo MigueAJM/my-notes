@@ -1,14 +1,17 @@
 :root {
-    --background-color: #E7ECEF;
+    --background-color: #edf2f4;
     --text-color: #272932;
-    --navbar-bg: #ffffff;
-    --container: 82.5rem
+    --navbar-bg: #f7f7f7;
+    --card-bg: #ffffff;
+    --card-header-bg: rgba(0, 0, 0, 0.03);
 }
 
 [data-theme="dark"] {
-    --background-color: #272932;
+    --background-color: #272b32;
     --text-color: #E7ECEF;
-    --navbar-bg: #000000
+    --navbar-bg: #2d333b;
+    --card-bg: #22272e;
+    --card-header-bg: #2d333b;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap");
