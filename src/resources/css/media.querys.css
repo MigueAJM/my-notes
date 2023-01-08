@@ -1,0 +1,26 @@
+@media only screen and (max-width: 57rem){
+    .toogle-desktop {
+        display: none
+    }
+
+    .toogle-movil {
+        display: block
+    }
+}
+@media only screen and (max-width: 46rem){
+    .welcome-profile {
+        display: none
+    }
+
+     .welcome-profile, .welcome-content {
+        grid-column: 1/4;
+    }
+
+    .welcome-content {
+        grid-row: 1;
+    }
+
+    .welcome-content .card-title {
+        text-align: center
+    }
+}

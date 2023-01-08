@@ -16,6 +16,7 @@ a, ul, li {
 
 body {
     background-color: var(--background-color);
+    min-width: 31.25rem;
 }
 
 header, footer, nav {
@@ -33,18 +34,22 @@ header, footer, nav {
     align-items: center
 }
 
-.grid-col3, .grid-col3-justify-center {
+.grid-col2 {
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.grid-col3 {
     grid-template-columns: repeat(3, 1fr)
 }
 
-.grid-col3-justify-center {
-    justify-items: center;
-    align-items: center
-}
-
-#welcome_page, #error_page {
+#error_page, .error_page {
     text-align: center;
     margin: 0 auto
+}
+
+#error_page, .error_page {
+    height: 80vh;
+    margin: auto auto
 }
 
 #error_page > div > i {
@@ -112,8 +117,55 @@ header, footer, nav {
 }
 
 .container {
-    width: calc(100vw - 10rem);
+    width: 85vw;
     margin: 0 auto;
+}
+
+.dropdown {
+    position: realtive;
+    display: inline-block
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: var(--navbar-bg);
+    min-width: 10rem;
+    box-shadow: 0 .125rem .25rem 0 var(--text-color);
+    z-index: 1
+}
+
+.dropdown-action {
+    text-decoration: none;
+    display: block
+}
+
+.dropdown-action:hover {
+    opacity: .7
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.btn, .dropdown-btn, .dropdown-action {
+    display: block;
+    color: var(--text-color);
+    font-weight: bold;
+    padding: .5rem .75rem
+}
+
+.profile-img {
+    min-width: 6.25rem; /* 100px */
+    max-width: 15.625rem; /* 250px */
+}
+
+.toogle-desktop {
+    display: block
+}
+.toogle-movil {
+    display: none
 }
 
 @media screen {
